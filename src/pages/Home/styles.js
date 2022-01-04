@@ -17,4 +17,20 @@ export const ContentContainer = styled.div`
       color: var(--orange);
     }
   }
+
+  div {
+    flex: 1;
+    display: flex;
+    margin-top: 1rem;
+
+    button + button {
+      margin-left: 1rem;
+    }
+  }
+
+  span {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+  }
 `;
