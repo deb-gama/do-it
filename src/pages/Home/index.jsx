@@ -1,4 +1,5 @@
 import { HomeContainer, ContentContainer } from "./styles";
+import Button from "../../components/Button";
 
 const Home = () => {
   return (
@@ -9,8 +10,8 @@ const Home = () => {
         </h1>
         <span>Organize-se de forma fácil e efetiva</span>
         <div>
-          <button>Cadastre-se</button>
-          <button>Login</button>
+          <Button whiteSchema>Cadastre-se</Button>
+          <Button>Login</Button>
         </div>
       </ContentContainer>
     </HomeContainer>
