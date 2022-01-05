@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { keyframes } from "styled-components";
 import SignUpImage from "../../assets/img/signup.svg";
 
 // container geral
