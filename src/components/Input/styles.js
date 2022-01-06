@@ -5,6 +5,9 @@ export const Container = styled.div`
 `;
 
 export const InputContainer = styled.div`
+
+    border-radius: 5px;
+
   background: var(--white);
   border-radius: 10px;
   border: 2px; solid var(--gray);
@@ -15,7 +18,15 @@ export const InputContainer = styled.div`
   transition: 0.4s;
 
   input{
-      background: transparent;
+    border: none;
+    height: 50px;
+    background: transparent;
+    align-items: center;
+    flex:1;
+    color: var(--black);
+    & ::placeholder{
+      color: var(--grey);
+    }
   }
 
 `;
