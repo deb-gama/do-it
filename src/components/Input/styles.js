@@ -27,6 +27,10 @@ export const InputContainer = styled.div`
     & ::placeholder{
       color: var(--grey);
     }
+
+    svg{
+      margin-right: 16px;
+    }
   }
 
 `;
